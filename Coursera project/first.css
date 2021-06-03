@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+}
+#verticlenav{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: #212529;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  line-height: 50px;
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a.active {
+  background-color: #24B4AB;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#two{
+  margin-left:20%;
+  padding:1px 16px;
+  height:753px;
+  background-image: url("chandu.jpg");
+  background-size: 100% 100%;
+}
+#circlepic{
+  margin-top: 20px;
+  margin-left: 75px;
+}
+h1{
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  padding-top: 10px;
+
+}
+.fa-github-square{
+  color: white;
+  margin-left: 25%;
+}
+.fa-linkedin{
+  color: white;
+  padding-left: 5%;
+}
+.fa-instagram{
+  color: white;
+  padding-left: 5%;
+}
+.fa-house-user{
+  color: #ffc107;
+}
+.fa-user{
+  color: #ffc107;
+}
+.fa-laptop-code{
+  color: #ffc107;
+}
+.fa-address-book{
+  color: #ffc107;
+}
+.fa-book-open{
+  color: #ffc107;
+}
+i{
+  transition: transform .1s;
+}
+.linking i:hover{
+  transform: scale(1.5);
+}
+.linking{
+  line-height: 500%;
+}
+
+
+/*About*/
+
+.about{
+  margin-left: 21%;
+}
+#pic{
+  margin-right: 5%;
+  line-height: 50%;
+  display: inline;
+  float: left;
+  padding-bottom: 100px;
+}
+#side{
+  display: inline;
+}
+.table{
+  width: 50%;
+}
+.fa-chevron-right{
+  color: #24B4AB;
+}
+
+/*skills*/
+.p2{
+  margin-left: 21%;
+  display: inline-block;
+  width: 40%;
+  float-left;
+}
+progress{
+  width: 250px;
+}
+.p2{
+  width: 1000px;
+}
+.pro{
+  font-size: 25px;
+}
+.fa-python{
+  font-size: 30px;
+  color: orange;
+}
+.fa-java{
+  font-size: 35px;
+}
+#ja{
+  display: inline;
+}
+#jav{
+  display: inline;
+  float: right;
+}
+.fa-cuttlefish{
+  font-size: 30px;
+  color: darkblue;
+  opacity: 0.7;
+}
+.fa-plus{
+  color: darkblue;
+}
+.fa-html5{
+  font-size: 35px;
+  color: #eb8007;
+}
+.fa-css3{
+  font-size: 35px;
+  color: #0999d6;
+}
+.certificates{
+  margin-left: 21%;
+}
+.carosol{
+  margin-left: 1%;
+}
+
+/*Contact*/
+#consec{
+  margin-left:20%;
+  background-color: #212529;
+  height: 760px;
+  background-image: url("map.png");
+}
+#cont{
+  margin-left: 30%;
+  color: white;
+  font-family: sans-serif;
+}
+/*label{
+  width:250px;
+  height:100px;
+}*/
+input{
+  margin-bottom:2%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+#name{
+  display: inline-block;
+}
+.message{
+  display: inline-block;
+  float: right;
+  margin-right: 20%;
+}
+input.message{
+  padding-bottom: 155px;
+}
+#but{
+  width: 100px;
+  margin-left: 35%;
+}
+
+.container{
+   /*display: inline;*/
+  width: 55%;
+  
+} 
+/*.PY{
+  width: 50%;
+}
+.PY:hover{
+  background-color:black;
+  opacity: 0.1;
+}
+.GOOG{
+  width: 50%;
+}
+.GOOG:hover{
+  background-color:black;
+  opacity: 0.1;
+}
+.WEBY{
+  width: 50%;
+}
+.WEBY:hover{
+  background-color:black;
+  opacity: 0.1;
+}
+
+/*
+.carousel-control-next{
+  width: 50%;
+}
+.carousel-control-prev:hover{
+  background-color:black;
+  opacity: 0.1;
+}
+.carousel-control-next:hover{
+  background-color:black;
+  opacity: 0.1;
+}*/
+#PYTHON{
+  margin-left: 25%;
+  color:orange;
+  font-family: serif;
+}
+#GOOGLE{
+  margin-left: 25%;
+  color:skyblue;
+  font-family: serif;
+}
+#WEB{
+  margin-left: 25%;
+  color:purple;
+  font-family: serif;
+}
+
+
+
+
+
